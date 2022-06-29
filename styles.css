@@ -1,0 +1,59 @@
+body {
+	background:BLACK;
+	font-family: "Nunito", sans-serif;
+}
+.postcard {
+	background: white;
+	height: 300px;
+	width: 400px;
+	margin: auto;
+	box-align: center;
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 2px;
+	
+	
+}
+.postcard-header h1 {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	width: 100%;
+	margin: 0;
+}
+img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+input {
+	border: none;
+	border-bottom: 0.5px grey solid;
+}
+#parrafo1 {
+	margin-top: 0%;
+}
+.body-left {
+	padding: 10px;
+}
+.body-right {
+	padding: 10px;
+}
+.postcard-footer {
+	text-align: center;
+	padding-top: 0px;
+}
+button {
+	background-color: darkgrey;
+	padding-bottom: 5px;
+}
